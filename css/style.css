@@ -1,0 +1,87 @@
+* {
+    padding: 0;
+    margin: 0;
+
+}
+
+header {
+    width: 100%;
+}
+
+body {
+    color: #222;
+    background: #fff;
+}
+
+nav {
+    position: relative;
+}
+
+nav ul {
+    list-style: none;
+    display: inline-block;
+    padding: 20px 30px;
+}
+
+#appmenu {
+    height: 40px;
+    width: 40px;
+}
+
+#user-icon {
+    color: #fff;
+    background: red;
+    border-radius: 50%;
+    text-align: center;
+    height: 22px;
+    width: 32px;
+}
+
+ul {
+
+    overflow: hidden;
+}
+
+li {
+    float: left;
+    list-style-type: none;
+}
+
+li a {
+    display: inline;
+    color: #222;
+    text-align: center;
+    text-decoration: none;
+    padding: 14px;
+}
+
+#nav-left {
+    display: inline-block;
+}
+
+#nav-right {
+    display: inline-block;
+    position: absolute;
+    right: 0;
+
+}
+
+input {
+    display: block;
+
+}
+
+.searchbar {
+    text-align: center;
+}
+
+#search img {
+    width: 272px;
+    padding: 15px;
+
+}
+
+#search {
+    text-align: center;
+    padding-top: 140px;
+}
